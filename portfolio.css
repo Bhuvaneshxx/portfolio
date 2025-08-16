@@ -1,0 +1,78 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    background: #3f3e3e;
+}
+.bhuvan{
+    height: 350px;
+    border-radius: 15px;
+    transition: transform 0.7s ease, box-shadow 0.4s ease;
+    margin-left: 60%;
+}.bhuvan:hover{
+    transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    }
+.info{
+    margin-top: -330px;
+    color: aliceblue;
+}
+#indigo{
+    color: rgb(148, 69, 205);
+}
+.nav1 {
+    position:sticky;
+    margin-left: 60%;
+    margin-top: 40px;
+}#nav-tem{
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    font-weight: 60%;
+    color: rgb(206, 202, 202);
+}#nav-tem:hover{
+    color: rgb(148, 69, 205);
+    font-weight: bold;
+    transition-duration: 300ms;
+}#Browseprojects{
+    border: solid 1px gray;
+    color: aliceblue;
+}#Browseprojects:hover{
+    box-shadow: 0px 2px 3px;
+}#dash{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(148, 69, 205);
+}.aboutinfo{
+    margin-left: 20px;
+    margin-top: -65px;
+    font-weight: bold;
+}.stack{
+    height: 250px;
+    border-radius: 20px;
+}.place{margin-left: 450px;margin-top: -290px;font-weight: bold;}
+.loc{
+    margin-left: 450px;
+    height: 250px;
+    width: 600px;
+    border-radius: 20px;
+}.loc:hover{
+    box-shadow: 2px 3px 10px 4px white;
+}.intern{
+    margin-left: 210px;
+    margin-top: -22px;
+    font-weight: bold;
+}.cloudimg{
+    margin-left: 60px;
+    border-radius:20px;
+    height: 250px;
+    width: 320px;
+}.nanlogicimg{
+    margin-left: 130px;
+    border-radius:20px;
+    height: 250px;
+    width: 400px;
+}.cloudimg:hover{
+    box-shadow: 2px 3px 10px 5px rgb(6, 6, 6);
+}.nanlogicimg:hover{
+    box-shadow: 2px 3px 10px 4px rgb(6, 6, 6);
+
+}
